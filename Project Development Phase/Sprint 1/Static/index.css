@@ -1,0 +1,31 @@
+body{
+    background-image: url("image/d1.webp");
+    background-repeat: no-repeat;
+    height: 400px;
+  background-position: center;
+
+  
+  background-size: cover;
+}
+.navigationMenu{
+    display:flex;
+    font-size: larger;
+    padding-left: 900px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+a{
+    color:black;
+    padding:50px;
+    text-align: center; 
+    text-decoration: none;
+
+}
+a:hover{
+    
+    border:2px solid black;
+    border-radius: 10px;
+    margin-top: 0px;
+    background-color: white;
+}

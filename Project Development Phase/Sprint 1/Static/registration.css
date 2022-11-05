@@ -1,0 +1,72 @@
+body{
+    background-image: url("image/d2.png");
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form{
+    border: 3px solid black;
+    background-color: rgba(61, 31, 31, 0.267);
+    color: white;
+    width:40%;
+    margin-left:370px;
+    margin-top:70px;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    border:2px solid black;
+    padding:7px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+label{
+    font-weight: 600;
+    font-size: larger;
+}
+.center{
+    width:100%;
+    border-radius: 5px;
+}
+
+
+input:hover{
+    background-color: rgb(223, 229, 231);
+    BORDER:2px solid rgb(37, 68, 81);
+}
+.btn{
+    margin-left:210px;
+    padding: 20px;
+}
+.field{
+    padding:10px;
+}
+.gender{
+    /* margin: 30px; */
+    padding-top:30px;
+}
+.gen{
+    display: flex;
+    margin: 10px;
+}
+.logbtn:hover{
+    background-color:rgb(71, 183, 208);
+    border:2px solid rgb(37, 68, 81);
+}
+.center:hover{
+    background-color: rgb(71, 183, 208);
+    BORDER:2px solid rgb(37, 68, 81);
+}
+.logbtn{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+marquee{
+    font-weight: 700;
+    font-size: x-large;
+    margin-top:10px;
+}

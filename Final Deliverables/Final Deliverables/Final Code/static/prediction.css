@@ -1,0 +1,60 @@
+body{
+    background-image: url("image/d1.gif");
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}          
+form{
+    background-color: rgba(0, 0, 0, .5);
+    border: 3px solid black;
+    width: 30%;
+    margin: 60px;
+    margin-left: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px ;
+}
+label{
+    color:white;
+    padding: 10px;
+    font-weight: 600;
+    font-size: larger;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 10px;
+}
+input:hover{
+    border: 3px solid  rgb(37, 136, 134);
+    background-color: antiquewhite;
+    font-size: medium;
+    font-weight: 500;
+}
+select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 10px;
+}
+select:hover{
+    border: 3px solid  rgb(37, 136, 134);
+    background-color: antiquewhite;
+    font-size: medium;
+}
+.input{
+    padding: 7px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    margin-left: 150px;
+}
+button:hover{
+    border: 3px solid  white;
+    background-color: purple;
+    color: white;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='login.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="/static/login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navigationMenu">
+        
+        <a href="#">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="/entry">
+            <i class="fa fa-home"></i>
+        </a>
+        <a href="/loginpage">
+            Login
+        </a>
+        <a href="/prediction">
+            Predict
+        </a>
+    
+</div>
+    <marquee behavior="" direction="left">Smart Lender - Applicant Credibility Prediction For Loan Approval</marquee>
+    <form action="/checkuser" method="POST">
+        <div class="login">
+            <div class="title">
+            <p>
+                LOGIN
+            </p>
+            <p>{{msg}}</p>
+           </div>
+            <div class="type">
+                <label for="username">UserName</label>
+                <input type="text" id="username" placeholder="Username" name="username">
+            </div>
+            <div class="type">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" name="password">
+            </div>
+            <div style="font-size: x-small; margin-left:150px;">
+                <a href="">
+                    Forgot password
+                </a>
+            </div>
+            <div class="button">
+                <a href="prediction.html"><button >Submit</button></a>
+            </div>
+            <div class="signup"><p>Create account? <a href="/signuppage">Sign-up</a> </p></div>
+            
+        </div>
+    </form>
+</body>
+</html>

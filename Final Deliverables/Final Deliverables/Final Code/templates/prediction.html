@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prediction.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="/details" method="POST">
+        <header style="color: white;text-align: center; font-size: x-large; font-weight: 800">Prediction</header>
+        <div class="regfrm">
+        <br>
+        <div class="input">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="gender">Male</option>
+                <option value="gender">Female</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="marrage">Married</label>
+            <select id="married" name="married" >
+                <option value="married">Yes</option>
+                <option value="married">No</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="Dependents">Dependents</label>
+            <input type="number" id="Dependents" name="Dependents" placeholder="No od Dependents on you">
+        </div>
+        <div class="input">
+            <label for="education">Education</label>
+            <select name="education" id="education">
+                <option value="education">Graduate</option>
+                <option value="education">Not Graduate</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="employment">Self-Employment</label>
+            <select name="employment" id="employment">
+                <option value="employment">Yes</option>
+                <option value="employment">No</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="income">Applicant Income</label>
+            <input type="number" id="income" name="income">
+        </div>
+        <div class="input">
+            <label for="co_income">CO Applicant Income</label>
+            <input type="number" id="co_income" name="coincome">
+        </div>
+        <div class="input">
+            <label for="loan">Loan Amount</label>
+            <input type="number" id="loan" name="loan">
+        </div>
+        <div class="input">
+            <label for="history">Credit History</label>
+            <input type="text" id="history" name="history">
+        </div>
+        <div class="btn">
+            <a href="result.html">
+                <button type="submit">Submit</button>
+            </a>
+        </div>
+    </div>
+    </form>
+    
+
+</body>
+</html>
